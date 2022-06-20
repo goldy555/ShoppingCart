@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_name"
+        android:labelFor="@id/editItemName" />
+
+    <EditText
+        android:id="@+id/editItemName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_price"
+        android:labelFor="@id/editItemPrice" />
+
+    <EditText
+        android:id="@+id/editItemPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_description"
+        android:labelFor="@id/editItemDescription" />
+
+    <EditText
+        android:id="@+id/editItemDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="40" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_category"
+        android:labelFor="@id/spinnerItemCategory" />
+
+    <Spinner
+        android:id="@+id/spinnerItemCategory"
+        android:layout_height="wrap_content"
+        android:prompt="@string/category_prompt"
+        android:layout_width="fill_parent"
+        android:entries="@array/categoryList"></Spinner>
+
+</LinearLayout>

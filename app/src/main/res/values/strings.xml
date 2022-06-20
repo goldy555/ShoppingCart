@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="splash_text">Now loading: Shopping List…</string>
+    <string name="loading_icon_alt">LOADING ICON</string>
+    <string name="list_item_purchased">Purchased</string>
+    <string name="list_item_name">Item</string>
+    <string name="list_item_price">%1$s HUF</string>
+    <string name="list_item_description">Description</string>
+    <string name="dialog_name">Product name</string>
+    <string name="dialog_description">Product description</string>
+    <string name="dialog_price">Product price</string>
+    <string name="category_prompt">Choose category</string>
+    <string name="category_food">Food</string>
+    <string name="category_cleaning">Cleaning</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="dialog_category">Product category</string>
+    <string name="total_in_list">Total in list\n %1$s HUF</string>
+    <string name="total_spent">Total spent\n %1$s HUF</string>
+    <string name="del_all">Are you sure you want to delete everything?</string>
+</resources>
